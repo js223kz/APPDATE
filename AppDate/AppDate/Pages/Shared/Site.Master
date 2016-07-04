@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="AppDate.Pages.Shared.Site" ViewStateMode="Disabled"%>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../../Content/Reset.css" rel="stylesheet" />
+    <link href="../../Content/Master.css" rel="stylesheet" />
+    <link href="../../Content/Site.css" rel="stylesheet" />
+</head>
+<script type="text/javascript">
+    function resetFields() {
+        $("input[type=text]").val("");
+    }
+</script>
+<body>
+    <form id="form1" runat="server">
+         <%--Header with navigationlinks--%>
+        <header class="Header">
+            <section class="HeaderButtons">
+                <asp:HyperLink class="headerlinks" ID="ClientListLinkButton" runat="server" NavigateUrl='<%$ RouteUrl:routename=Default %>'>Kundlista</asp:HyperLink>
+                <asp:HyperLink class="headerlinks" ID="AddClientLinkButton" runat="server" NavigateUrl='<%$ RouteUrl:routename=AddClient %>'>Ny Kund</asp:HyperLink>
+            </section>
+        </header>
+         
+        <%--Error message--%>
+        <asp:ValidationSummary ID="ValidationSummary" CssClass="validation-summary-errors" runat="server" />
+
+        <%--Success message--%>
+            <asp:PlaceHolder ID="SuccessPlaceHolder" runat="server" Visible="false">
+                <div id="SuccessContainer">
+                    <div class="successmessagecontainer">
+                        <asp:Image ID="SuccessImage" runat="server" CssClass="successfulladdimage" ImageUrl="~/Content/Pics/Check.png" />
+                        <asp:Label ID="SuccessLabel" runat="server" CssClass="successfulladdlabel"></asp:Label>
+                    </div>
+                    <div class="closebuttoncontainer">
+                        <asp:ImageButton ID="CloseImageButton" PostBackUrl='<%# "~/Default.aspx?name="%>' runat="server" ImageUrl="~/Content/Pics/Close.png" OnClientClick="CloseSuccessAddContainer" CausesValidation="False" />
+                    </div>
+                </div>
+            </asp:PlaceHolder>
+       
+        <%--Main body section--%>
+         <section class="Main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+    
+    <%--Footer--%>
+    <footer>
+        <p class="footertext">Appdate AB  Östergatan 16, 239 40 Falsterbo. Telefon: 0705-266 130  E-post: js223kz@student.lnu.se</p>
+    </footer>
+    </form>
+</body>
+</html>

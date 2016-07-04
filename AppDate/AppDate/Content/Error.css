@@ -1,0 +1,18 @@
+﻿.headline{
+    border-bottom: solid 20px #808080;
+    width: 900px;
+    line-height:80px;
+    font-size: 4em;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family:Verdana;
+    margin-bottom: 20px;
+}
+h2{
+    margin-left: 20px;
+    font-family:Verdana;
+}
+p{
+     margin-left: 20px;
+     font-family:Verdana;
+}

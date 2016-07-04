@@ -1,0 +1,71 @@
+﻿body{
+    background-color: #e1dbdb;
+}
+.Header{
+    width: 100%;
+    height: 80px;
+    background-color: #b2cfd8;
+}
+.validation-summary-errors{
+    color: #f00; 
+    width: 860px;
+    background-color: #fc9595;
+    border: 1px solid #f00;
+    padding: 20px;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+li{
+    margin-bottom: 5px;
+    list-style-type: square;
+}
+.Main{
+    height: 700px;
+}
+footer{
+    height: 50px;
+    background-color: #b2cfd8;
+}
+.headerlinks{
+    text-decoration: none;
+    font-family:'Verdana';
+    padding-left: 20px;
+    border-left: 1px solid #fff;
+    margin-left: 20px;
+    position: relative;
+    top: 50px;
+    color: #fff;
+}
+.footertext{
+    font-family: 'Verdana';
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#SuccessContainer{
+    width: 900px;
+    height: 50px;
+    background-color:#b6ff00;
+    line-height: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid #227c1f;
+}
+.successmessagecontainer{
+    width: 450px;
+    float:left;
+    margin-left:10px;
+}
+.successlabel{
+    color: #227c1f;
+    margin-left: 5px;
+    width: 400px;
+}
+.closebuttoncontainer{
+    margin-top: -10px;
+    margin-left: 400px;
+    float: left;
+}

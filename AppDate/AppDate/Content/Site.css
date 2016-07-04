@@ -1,0 +1,139 @@
+﻿.field-validation-errors{
+    color: #f00;
+    margin-bottom: 10px;
+}
+.tableheader{
+    font-family: Verdana;
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: left;
+}
+.clientlist{
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+.rows{
+    background-color: #b2cfd8;
+}
+.alternatingitem{
+    background-color: #ccc;
+}
+
+.datarows{
+    padding: 10px;
+    font-family: Verdana;
+}
+.command{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.editbutton{
+    text-decoration: none;
+    color: #fff;
+    font-family: Verdana;
+    vertical-align: middle;
+}
+.listviewdatapager{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.addclientsection{
+    margin-top:20px;
+    margin-left: 20px;
+    width: 340px;
+}
+.textbox{
+    height: 20px;
+    border-radius: 3px;
+}
+.textboxheader{
+    font-size: 0.8em;
+    font-family: Verdana;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+submitclientbutton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.clientdetailssection{
+    margin-left: 20px;
+    padding-right: 100px;
+    width: 300px;
+    float: left;
+}
+.weekmenudetailssection{
+    margin-left: 20px;
+    padding-right: 100px;
+    width: auto;
+    float: left;
+}
+.weekmenusection{
+    padding-left: 50px;
+    width: 550px;
+}
+.weekmenuheader{
+     background-color: #b2cfd8;
+     width: 550px;
+}     
+.menuheaderrows{
+     padding: 10px;
+     font-family: Verdana;
+     text-align: left;
+}
+.weekmenudatapager{
+    margin-left: 430px;
+    margin-top: 30px;
+}
+.editclientsection{
+    margin-top:20px;
+    margin-left: 20px;
+    width: 340px;
+}
+.clientdetailstext{
+    font-family: Verdana;
+    line-height: 1.5em;
+}
+.confirmationbox{
+    width: auto;
+    height: auto;
+}
+.confirmationbox{
+    width: 500px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color:#b2cfd8;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+.confirmationheader{
+    text-align: center;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.buttondiv{
+    width: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.confirmationbutton{
+   width: 60px;
+}
+.emptydatatablesection{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.emptydatatableheader{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
